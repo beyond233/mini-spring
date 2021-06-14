@@ -15,6 +15,7 @@ public interface BeanFactory {
      *
      * @param name Bean的名称
      * @return {@link java.lang.Object}
+     * @throws BeanException Bean异常
      * @since 2021/6/11 22:01
      */
     Object getBean(String name) throws BeanException;
